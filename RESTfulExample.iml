@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="EclipseModuleManager">
+    <varelement var="file://$M2_REPO$/asm/asm/3.1/asm-3.1.jar" value="M2_REPO/asm/asm/3.1/asm-3.1.jar" />
+    <varelement var="file://$M2_REPO$/com/sun/jersey/jersey-core/1.8/jersey-core-1.8.jar" value="M2_REPO/com/sun/jersey/jersey-core/1.8/jersey-core-1.8.jar" />
+    <varelement var="file://$M2_REPO$/com/sun/jersey/jersey-core/1.8/jersey-core-1.8-sources.jar" value="src:M2_REPO/com/sun/jersey/jersey-core/1.8/jersey-core-1.8-sources.jar" />
+    <varelement var="file://$M2_REPO$/com/sun/jersey/jersey-server/1.8/jersey-server-1.8.jar" value="M2_REPO/com/sun/jersey/jersey-server/1.8/jersey-server-1.8.jar" />
+    <varelement var="file://$M2_REPO$/com/sun/jersey/jersey-server/1.8/jersey-server-1.8-sources.jar" value="src:M2_REPO/com/sun/jersey/jersey-server/1.8/jersey-server-1.8-sources.jar" />
+    <varelement var="file://$M2_REPO$/junit/junit/4.8.2/junit-4.8.2.jar" value="M2_REPO/junit/junit/4.8.2/junit-4.8.2.jar" />
+    <varelement var="file://$M2_REPO$/junit/junit/4.8.2/junit-4.8.2-sources.jar" value="src:M2_REPO/junit/junit/4.8.2/junit-4.8.2-sources.jar" />
+    <src_description expected_position="0">
+      <src_folder value="file://$USER_HOME$/Desktop/RESTfulExample/src/main/java" expected_position="0" />
+      <src_folder value="file://$USER_HOME$/Desktop/RESTfulExample/src/main/resources" expected_position="1" />
+    </src_description>
+  </component>
+  <component name="FacetManager">
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$USER_HOME$/Desktop/GameSpace/src/main/webapp/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$USER_HOME$/Desktop/RESTfulExample/src/main/webapp" relative="/" />
+        </webroots>
+        <sourceRoots>
+          <root url="file://$USER_HOME$/Desktop/RESTfulExample/src/main/java" />
+          <root url="file://$USER_HOME$/Desktop/RESTfulExample/src/main/resources" />
+        </sourceRoots>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_6" inherit-compiler-output="false">
+    <output url="file://$USER_HOME$/Desktop/RESTfulExample/target/classes" />
+    <output-test url="file://$USER_HOME$/Desktop/RESTfulExample/target/test-classes" />
+    <content url="file://$USER_HOME$/Desktop/GameSpace">
+      <sourceFolder url="file://$USER_HOME$/Desktop/GameSpace/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/Desktop/GameSpace/src/main/resources" type="java-resource" />
+      <excludeFolder url="file://$USER_HOME$/Desktop/GameSpace/target" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="asm-3.1.jar">
+        <CLASSES>
+          <root url="file://$M2_REPO$/asm/asm/3.1/asm-3.1.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jersey-core-1.8.jar">
+        <CLASSES>
+          <root url="file://$M2_REPO$/com/sun/jersey/jersey-core/1.8/jersey-core-1.8.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$M2_REPO$/com/sun/jersey/jersey-core/1.8/jersey-core-1.8-sources.jar" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jersey-server-1.8.jar">
+        <CLASSES>
+          <root url="file://$M2_REPO$/com/sun/jersey/jersey-server/1.8/jersey-server-1.8.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$M2_REPO$/com/sun/jersey/jersey-server/1.8/jersey-server-1.8-sources.jar" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="junit-4.8.2.jar">
+        <CLASSES>
+          <root url="file://$M2_REPO$/junit/junit/4.8.2/junit-4.8.2.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$M2_REPO$/junit/junit/4.8.2/junit-4.8.2-sources.jar" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.8.2" level="project" />
+    <orderEntry type="library" name="Maven: com.sun.jersey:jersey-server:1.8" level="project" />
+    <orderEntry type="library" name="Maven: asm:asm:3.1" level="project" />
+    <orderEntry type="library" name="Maven: com.sun.jersey:jersey-core:1.8" level="project" />
+  </component>
+</module>
