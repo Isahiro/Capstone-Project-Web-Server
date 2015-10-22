@@ -17,7 +17,7 @@
     <facet type="web" name="Web">
       <configuration>
         <descriptors>
-          <deploymentDescriptor name="web.xml" url="file://$USER_HOME$/Desktop/GameSpace/src/main/webapp/WEB-INF/web.xml" />
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/GameSpace/src/main/webapp/WEB-INF/web.xml" />
         </descriptors>
         <webroots>
           <root url="file://$USER_HOME$/Desktop/RESTfulExample/src/main/webapp" relative="/" />
@@ -32,10 +32,10 @@
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_6" inherit-compiler-output="false">
     <output url="file://$USER_HOME$/Desktop/RESTfulExample/target/classes" />
     <output-test url="file://$USER_HOME$/Desktop/RESTfulExample/target/test-classes" />
-    <content url="file://$USER_HOME$/Desktop/GameSpace">
-      <sourceFolder url="file://$USER_HOME$/Desktop/GameSpace/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$USER_HOME$/Desktop/GameSpace/src/main/resources" type="java-resource" />
-      <excludeFolder url="file://$USER_HOME$/Desktop/GameSpace/target" />
+    <content url="file://$MODULE_DIR$/GameSpace">
+      <sourceFolder url="file://$MODULE_DIR$/GameSpace/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GameSpace/src/main/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/GameSpace/target" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
