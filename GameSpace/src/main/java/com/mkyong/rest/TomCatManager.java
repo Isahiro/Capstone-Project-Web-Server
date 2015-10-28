@@ -8,6 +8,7 @@ import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.ArrayList;
 
 /**
  * This class will serve as the manager between the Java application and
@@ -65,5 +66,32 @@ public class TomCatManager
         {
             e.printStackTrace();
         }
+    }
+
+    public ArrayList<CalendarEvent> getEvents(String query)
+    {
+        ArrayList output = new ArrayList<CalendarEvent>();
+        try
+        {
+            results = statement.executeQuery(query);
+
+                    while(results.next() )
+                    {
+                        CalendarEvent event = new CalendarEvent();
+                        event.name = results.getString("eventName");
+                        event.dateTime = results.getString("eventDateTime");
+                        event.game = results.getString("eventGame");
+                        event.location = results.getString("eventLocation");
+                        event.description = results.getString("eventDescription");
+
+                        output.add(event);
+                    }
+        }
+        catch (Exception e)
+        {
+            e.printStackTrace();
+        }
+
+        return output;
     }
 }
