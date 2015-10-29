@@ -48,6 +48,7 @@
     <option name="originalFiles">
       <list>
         <option value="$USER_HOME$/Desktop/RESTfulExample/pom.xml" />
+        <option value="$PROJECT_DIR$/GameSpace/pom.xml" />
       </list>
     </option>
   </component>

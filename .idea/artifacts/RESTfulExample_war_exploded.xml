@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="RESTfulExample:war exploded">
-    <output-path>$USER_HOME$/Desktop/RESTfulExample/target/RESTfulExample</output-path>
+    <output-path>$PROJECT_DIR$/GameSpace/target/RESTfulExample</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
@@ -10,6 +10,7 @@
           <element id="library" level="project" name="Maven: com.sun.jersey:jersey-server:1.8" />
           <element id="library" level="project" name="Maven: asm:asm:3.1" />
           <element id="library" level="project" name="Maven: com.sun.jersey:jersey-core:1.8" />
+          <element id="library" level="project" name="Maven: com.googlecode.json-simple:json-simple:1.1" />
         </element>
       </element>
       <element id="directory" name="META-INF">

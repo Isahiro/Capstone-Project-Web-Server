@@ -20,18 +20,14 @@
           <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/GameSpace/src/main/webapp/WEB-INF/web.xml" />
         </descriptors>
         <webroots>
-          <root url="file://$USER_HOME$/Desktop/RESTfulExample/src/main/webapp" relative="/" />
+          <root url="file://$MODULE_DIR$/GameSpace/src/main/webapp" relative="/" />
         </webroots>
-        <sourceRoots>
-          <root url="file://$USER_HOME$/Desktop/RESTfulExample/src/main/java" />
-          <root url="file://$USER_HOME$/Desktop/RESTfulExample/src/main/resources" />
-        </sourceRoots>
       </configuration>
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_6" inherit-compiler-output="false">
-    <output url="file://$USER_HOME$/Desktop/RESTfulExample/target/classes" />
-    <output-test url="file://$USER_HOME$/Desktop/RESTfulExample/target/test-classes" />
+    <output url="file://$MODULE_DIR$/GameSpace/target/classes" />
+    <output-test url="file://$MODULE_DIR$/GameSpace/target/test-classes" />
     <content url="file://$MODULE_DIR$/GameSpace">
       <sourceFolder url="file://$MODULE_DIR$/GameSpace/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GameSpace/src/main/resources" type="java-resource" />
@@ -85,5 +81,6 @@
     <orderEntry type="library" name="Maven: com.sun.jersey:jersey-server:1.8" level="project" />
     <orderEntry type="library" name="Maven: asm:asm:3.1" level="project" />
     <orderEntry type="library" name="Maven: com.sun.jersey:jersey-core:1.8" level="project" />
+    <orderEntry type="library" name="Maven: com.googlecode.json-simple:json-simple:1.1" level="project" />
   </component>
 </module>
